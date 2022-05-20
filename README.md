@@ -77,3 +77,9 @@ Destacan en los procesos de análisis, reconocimiento y clasificación de imáge
 Son un tipo de red neuronal artificial donde las neuronas artificiales, corresponden a campos receptivos de una manera muy similar a las neuronas en la corteza visual primaria.
 
 Su sistema de trabajo se basa en la localización de patrones en áreas reducidas de la imagen y no en su conjunto.
+
+### Entrenamiento
+
+Para el entrenamiento se ha utilizado una red neuronal pre-entrenada (EfficientNet-B0), a la que únicamente se le han añadido las últimas capas con nuestro entrenamiento de frutas.
+
+EfficientNet es una arquitectura de red neuronal convolucional y un método de escalado que escala uniformemente todas las dimensiones de profundidad/ancho/resolución mediante un coeficiente compuesto.
